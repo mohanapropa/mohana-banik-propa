@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  z-index: 99;
+  padding: 0 0 0 10%;
+}
+
+.scrolled {
+  backdrop-filter: blur(5px);
+}
+
+.menu {
+  display: flex;
+  margin-right: 20%;
+}
+
+.menu > li {
+  padding: 0 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tophead > h1 {
+  display: flex;
+}
+
+.name-logo {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.3em;
+}
+
+.blink {
+  height: 2rem;
+  width: 15px;
+  animation: blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 3px solid white;
+  display: block;
+}
+
+.logo-image {
+  height: 4rem;
+  width: 4rem;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.menu-btn {
+  display: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  display: none;
+}
+

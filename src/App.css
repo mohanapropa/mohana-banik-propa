@@ -1,38 +1,78 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ul > li {
+  list-style: none;
+  font-weight: bold;
+}
+
+button {
+  border: 2px solid white;
+  padding: 0.7rem 3rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  background: #950740;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .App {
-  text-align: center;
+  background-image: url('./image/effect.png');
+  animation: static 3s steps(5, end) infinite;
+  z-index: 999;
+  background-size: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@keyframes static {
+  0% {
+    background-position: 0% 0%;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  20% {
+    background-position: 25% 15%;
+  }
+
+  40% {
+    background-position: 50% 69%;
+  }
+
+  60% {
+    background-position: 33% 25%;
+  }
+
+  80% {
+    background-position: 72% 4%;
+  }
+
+  100% {
+    background-position: 80% 91%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-resolution: 100dpi) {
+  button {
+    font-size: 1rem;
   }
 }
