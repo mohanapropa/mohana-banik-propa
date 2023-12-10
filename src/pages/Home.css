@@ -1,4 +1,4 @@
-.home {
+.me {
     height: 100vh;
     padding: 0 10%;
     display: flex;
@@ -8,7 +8,7 @@
     margin-bottom: 10%;
   }
   
-  .home-overlay {
+  .me-overlay {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,8 +41,9 @@
   .tagline {
     font-size: 1.1rem;
     color: #c3073f;
-    margin: -1% 0 0 0;
+    margin: 2 0 0 0;
     font-family: 'Orbit', sans-serif;
+    text-decoration: double;
   }
   
   .paragraph {
@@ -105,17 +106,5 @@
     transform: scale(1.8);
   }
   
-  @keyframes floating {
-    0% {
-      transform: translate(0, 0);
-    }
   
-    50% {
-      transform: translate(0, 15px);
-    }
-  
-    100% {
-      transform: translate(0, -0);
-    }
-  }
   
