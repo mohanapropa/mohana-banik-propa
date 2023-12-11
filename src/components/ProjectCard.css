@@ -1,0 +1,39 @@
+.project-card {
+  background-color: rgb(84, 84, 84, 0.8);
+  color: white;
+  break-inside: avoid;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-description {
+  padding: 2% 4% 5% 4%;
+}
+
+.stacks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.tech-stack {
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  border: 0;
+  background-color: #950740;
+  cursor:none;
+}
+
+.tech-stack:hover {
+  border: none;
+  background-color: #ee4c7c;
+  color: white;
+}
+
+
+

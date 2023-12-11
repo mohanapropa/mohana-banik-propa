@@ -1,0 +1,29 @@
+.achievements {
+  padding: 1rem 10%;
+  margin-bottom: 10%;
+}
+
+.achievements-container {
+  display: grid;
+  gap: 1rem;
+  }
+
+.achievement-title {
+  margin-top: 2rem !important;
+  text-align: end;
+}
+.participation{
+    background-color: rgb(84, 84, 84, 0.8);
+    color: white;
+    break-inside: avoid;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 5% 8% 5% 4.5%;
+}
+  
+.spacer {
+  margin-top: 20px; 
+}

@@ -1,0 +1,33 @@
+.projects {
+  padding: 0 10%;
+  margin-bottom: 10%;
+}
+
+.projects-container {
+  display: grid;
+  gap: 2rem;
+}
+
+.projects-title {
+  margin-top: 2rem !important;
+  text-align: start;
+  font-size: larger;
+  display: inline-block;
+  background-color: rgba(149, 7, 64, 0.7);
+  padding: 1rem 1rem;
+  border-radius: 7px;
+ 
+
+}
+
+.projects-para {
+  font-size: 1.5rem;
+  color: white;
+  margin: 2% 0 4rem 0;
+  font-family: 'Orbit', sans-serif;
+  text-align: justify;
+}
+
+
+
+

@@ -2,6 +2,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import About from './pages/About';
+import Project from './pages/Projects';
+import Achievement from './pages/Achievements';
 
 
 function App() {
@@ -9,9 +11,10 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="home">
-      <Home />
+        <Home />
         <About />
-        
+        <Project/>
+        <Achievement/>
       </div>
     </div>
   );
