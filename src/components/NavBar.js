@@ -39,7 +39,7 @@ const NavBar = () => {
           <h1>
             <Link
               className="name-logo"
-              //spy
+              spy
               smooth
               offset={50}
               duration={500}

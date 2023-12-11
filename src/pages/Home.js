@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Imu from "../image/propa.jpg";
+import Image from "../image/propa.jpg";
 
 const Me = () => (
     <div className="me" id="home">
@@ -8,7 +8,7 @@ const Me = () => (
         <div className="description">
           <h2 className="title">Hey! I am Mohana Banik Propa</h2>
          <h3 className="tagline">
-            I am Fullstack Web developer.
+            I am a Fullstack Web developer.
           </h3>
           <p className="paragraph">
             I'm passionate about crafting exceptional digital experiences. 
@@ -21,7 +21,7 @@ const Me = () => (
           </p>
          
         </div>
-        <img src={Imu} className="my-image" />
+        <img src={Image} className="my-image" />
       </div>
       
       <div className="social-icons">

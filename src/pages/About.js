@@ -37,7 +37,7 @@ import Intellij from '../image/IntelliJ_IDEA_Icon.svg.png'
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
-      <h2 className="title about-title">About Me</h2>
+      <h2 className="about-title">About Me</h2>
       <p className="paragraph about-para">
       I graduated from Bangladesh University of Professionals in 2021. 
       I have been involved with competitive programming since my graduation. 
